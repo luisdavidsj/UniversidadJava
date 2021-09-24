@@ -2,8 +2,8 @@ package seccion7_Clases;
 
 public class Persona {
     //Atributos de la clase
-    String nombre;
-    String apellido;
+    public String nombre;
+    public String apellido;
     
     //Metodos de la clase
     public void desplegarInformacion(){
