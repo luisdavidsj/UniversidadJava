@@ -5,6 +5,20 @@ public class Aritmetica {
 	int a;
 	int b;
 	
+	//Constructor vacio:
+	//Este constructor vacío se va a agregar siempre y cuando no haya otro constructor con argumentos.
+	public Aritmetica(){
+		System.out.println("Ejecutando constructor");
+	}
+	
+	//Sobrecarga de constructores:
+	public Aritmetica(int a, int b){
+		this.a = a;
+		this.b = b;
+		System.out.println("Ejecutando constructor con argumentos");
+		
+	}
+	
 	//Metodo
 	public void sumar() {
 		int resultado = a + b;
@@ -18,6 +32,7 @@ public class Aritmetica {
 		return this.a + this.b;
 	}
 	
+	//Método que recibe argumentos
 	public int sumarConArgumentos(int arg1, int arg2) {
 		this.a = arg1;
 		this.b = arg2;
