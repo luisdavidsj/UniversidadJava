@@ -1,4 +1,4 @@
-package seccion8_Metodos;
+package seccion8_9_10_Metodos_Constructores_AlcanceVariables;
 
 public class Aritmetica {
 	//Atributos de la clase
@@ -21,7 +21,7 @@ public class Aritmetica {
 	
 	//Metodo
 	public void sumar() {
-		int resultado = a + b;
+		int resultado = this.a + this.b;
 		System.out.println("resultado = " + resultado);
 	}
 	
