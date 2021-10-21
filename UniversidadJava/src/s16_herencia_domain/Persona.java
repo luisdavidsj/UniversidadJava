@@ -6,6 +6,7 @@ public class Persona{
 	protected int edad;
 	protected String direccion;
 	
+	//Sobrecarga de constructores
 	public Persona() {
 		
 	}
