@@ -1,4 +1,4 @@
-package s20_test;
+package s21_test;
 
 public class TestArreglos {
 
@@ -22,7 +22,6 @@ public class TestArreglos {
 			System.out.println("edades elemento " + i + ": " + edades[i]);
 		}
 		
-		//Sintaxis simplificada:
 		String frutas[] = {"Naranja","Platano","Uva"};
 		for (int i = 0; i < frutas.length; i++) {
 			System.out.println("frutas = " + frutas[i]);
