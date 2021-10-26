@@ -1,8 +1,8 @@
-package TestOperadciones;
+package s17_operaciones_test;
 
 import s17_sobrecarga_metodos_operaciones.Operaciones;
 
-public class s17_metodos_test {
+public class TestOperaciones {
 	public static void main(String[] args) {
 		var resultado = Operaciones.sumar(5, 3);
 		System.out.println("resultado = " + resultado);
